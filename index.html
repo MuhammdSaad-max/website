@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+.sidebar{
+    background-color: rgb(221, 202, 202); 
+     width: 350px; 
+    height: 100vh;
+    font-family: sans-serif;
+    transition: transform 0.3s ease-in;
+}
+*{
+    margin: 0%;
+    background-color: rgb(226, 164, 164);
+    padding: 0;
+
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+    padding: 23px;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+}
+.devpic img{
+    width: 40vh;
+    height: 50vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.infocontainer{
+    /* background-color: rgb(240, 45, 165); */
+    justify-content: space-around;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    margin: 147px auto;
+    flex-wrap: wrap;
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn-sm{
+    cursor: pointer;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 15px;
+    border: 2px solid white;
+    margin: 0 8px;
+    border-radius: 15px;
+    padding: 9px 14px;
+}
+.btn-sm:hover{
+    background-color: white;
+    color: dodgerblue;
+    border: 2px solid black;
+}
+.btn button{
+    margin:35px;
+    padding: 9px 14px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 8px;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid white;
+    background-color:dodgerblue;
+}
+.moreabout{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btn button:hover{
+    background-color: white;
+    border: 2px solid black;
+    color:dodgerblue;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+}
+.contactform{
+    padding-top: 144px;
+    padding: 144px 34px;
+    border-radius: 6px;
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    border-radius: 10px;
+    border-radius: 6px;
+    padding: 10px 0;
+}
+.contactform form div input{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+    padding: 5px 0; 
+}
+#form-check input{
+    width: 27px; 
+}
+.blogitem{
+    margin: 20px;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 23px;
+}
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skill{
+    border: 2px solid black;
+    width: 265px;
+    height: 6px;
+    background-color: red;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.hundered{
+    width:265px;
+    background-color: blueviolet;
+
+}
+
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 150px;
+    cursor: pointer;
+}
+.ham{
+    cursor: pointer;
+}
+.sidebarGo{
+    position: absolute;
+    transform: translate(-443px, 0);
+}
+    </style>
+    <title>Saad web developer</title>
+</head>
+<body>
+    <div class="container">  
+        </div>
+        <div class="main">
+            <div class="infocontainer">
+                <div class="devinfo">
+                    <div class="hello">Hi I am </div>
+                    <div class="name"> Muhammad Saad </div>
+                    <div class="about">Web developer, Blog writer, Programmer </div>
+                    <div class="moreabout">I am a Web developer and I canalso provide html and css filesfor any website. I live in Lahore. </div>
+                    <div class="btn">
+                        <a><button class="btn">Contact me</button></a>
+                    </div>
+                </div>
+                <div class="devpic"><img src="my.jpg" alt="Saad"></div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="intro">
+        <h2>About Me</h2>
+        <p>He guys! I am Saad I live in Lahore a beatufil city of punjab. I am a Muslim. I am a web developer and I can also provide you html and css files for any website.I can also write blogs about you.</p>
+        <h2>My Skills</h2>
+        <div class="skillcontainer">
+            <div class="skillitem">HTML: <div class="skill"></div></div>
+            <div class="skillitem">CSS: <div class="skill"></div></div>
+            <div class="skillitem">JAVASCRIPT: <div class="skill"></div></div>
+            <div class="skillitem">PUG: <div class="skill t5"></div></div>
+            <div class="skillitem">PYTHON: <div class="skill t5"></div></div>
+        </div>
+        <h1>Contact Me For Work or For General Enquiries</h1>
+        <h2>My Email</h2>
+        <p>sm3454691@gmail.com</p>
+        <h2>My phone number</h2>
+        <p>0313-4550394</p>      
+    </div>
+    </div>
+    </body>
+</html>
